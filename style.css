@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: beige;
+}
+header{
+    display: block;
+    background-color: rgb(211, 211, 235);
+    position: sticky;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+li{
+    list-style-type: none;
+    display: inline-block;
+    color: red;
+    padding: 1.5vh;
+    font-size: 3vh;
+}
+ul{
+    padding-left: vmax;
+    background-color: rgb(211, 211, 235);
+}
+.img{
+    height: 13vw;
+    border-radius: 6vw;
+    position: relative;
+    left: 20vw;
+    top: 1vw;
+}
+#about{
+    display: inline-block;
+    position: relative;
+    left: 20vw;
+    height: 8vw;
+    width: 35vw;
+    bottom: 5vw;
+    text-align: center;
+    padding-top: 1.5vw;
+    font-size: 1.1vw;
+    top: 0.01vw;
+}
+#acad{
+    display: inline-block;
+    position: relative;
+    left: 45vw;
+    top: 2vw;
+}
+.academics{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 15vw;
+    position: relative;
+    top: 4vw;
+    
+}
+#ab{
+    display: inline-block;
+    position: relative;
+    left: 47vw;
+    top: 5vw;
+}
+#tenten{
+    display: inline-block;
+    position: relative;
+    width: 20vw;
+    left: 8vw;
+    top: 4vh;
+    z-index: 10;
+}
+#inter{
+    display: inline-block;
+    position: relative;
+    width: 20vw;
+    left: 18vw;
+    z-index: 11;
+}
+#engi{
+    display: inline-block;
+    position: relative;
+    width: 20vw;
+    left: 30vw;
+    z-index: 12;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    font-size: 1vw;
+    padding: 2vw 0;
+    align-items: center;
+}
+#email{
+    display: inline-block;
+    padding: 2vw 0;
+}
+#mobile(
+    display: inline-block;
+    padding: 2vw 0;
+)
+#con{
+    display: inline-block;
+    padding-top: 4vw;
+    padding-left: 47vw;
+    z-index: 13;
+}
+#mobile{
+    display: inline-block;
+    position: relative;
+    top: 4vw;
+}
+#name{
+    display: inline-block;
+    position: relative;
+    top: 4vw;
+}
+#email{
+    display: inline-block;
+    position: relative;
+    top: 4vw;
+}
+#foo{
+    display: inline-block;
+    padding-left: 45vw;
+    padding-top: 9vw;
+    font-size: 1.4vw;
+}
